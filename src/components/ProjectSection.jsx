@@ -9,7 +9,7 @@ const projects = [
         outcome: "Orchestrated an end-to-end ML pipeline that autonomously identifies high-risk pathology with 98% accuracy, reducing wait-to-triage time.",
         tech: ["Python", "XGBoost", "Scikit-Learn", "Streamlit"],
         link: "https://github.com/ASTROBOX1/Stroke-Risk-Prediction",
-        image: "/pics/stroke.png",
+        image: "pics/stroke.png",
         featured: true
     },
     {
@@ -19,7 +19,7 @@ const projects = [
         outcome: "Quantified subtle neural biomarkers to deliver high-precision diagnostic scores, enabling proactive intervention strategies.",
         tech: ["TensorFlow", "Pandas", "Neuro-Science", "EDA"],
         link: "https://github.com/ASTROBOX1/final-project-creativa",
-        image: "/pics/Alzheimer.png",
+        image: "pics/Alzheimer.png",
         featured: false
     },
     {
@@ -29,7 +29,7 @@ const projects = [
         outcome: "Engineered a multi-dimensional regression engine that maps quality metrics to market values for institutional-grade transparency.",
         tech: ["Python", "Regression", "Data Visualization", "Pandas"],
         link: "https://github.com/ASTROBOX1/Diamond-Price-Prediction-ML",
-        image: "/pics/diamond.png",
+        image: "pics/diamond.png",
         featured: false
     }
 ];
