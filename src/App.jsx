@@ -2,9 +2,11 @@ import { useEffect } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Skills from './components/Skills';
+import Positioning from './components/Positioning';
+import Services from './components/Services';
 import ProjectSection from './components/ProjectSection';
-import Experience from './components/Experience';
+import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -38,9 +40,11 @@ function App() {
           transition={{ duration: 1.5 }}
           className="relative"
         >
-          <Skills />
+          <Positioning />
+          <Services />
           <ProjectSection />
-          <Experience />
+          <About />
+          <Contact />
         </motion.div>
       </main>
 

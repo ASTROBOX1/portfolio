@@ -249,6 +249,45 @@ body::after {
 .group:hover .group-hover-unblur { filter: blur(0); }
 .group:hover .group-hover-opaque { opacity: 1; }
 
+/* Contact Styles */
+.contact-input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 0.875rem 1rem;
+  color: var(--text-main);
+  font-family: var(--font-body);
+  transition: var(--transition);
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: var(--primary-accent);
+  background: var(--surface-hover);
+  box-shadow: 0 0 10px var(--primary-accent-glow);
+}
+
+.contact-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 9999px;
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.contact-pill:hover {
+  border-color: var(--primary-accent);
+  background: var(--surface-hover);
+  transform: translateY(-2px);
+}
+
 /* Components */
 .section { padding: var(--space-section) 0; }
 

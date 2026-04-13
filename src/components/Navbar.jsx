@@ -13,10 +13,9 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
+        { name: 'Services', href: '#services' },
         { name: 'Projects', href: '#projects' },
-        { name: 'Experience', href: '#experience' },
         { name: 'About', href: '#about' },
-        { name: 'Contact', href: '#contact' },
     ];
 
     return (
@@ -54,6 +53,10 @@ const Navbar = () => {
                         </li>
                     ))}
                 </ul>
+
+                <a href="#contact" className="btn-premium primary hidden md:inline-flex !py-2 !px-5 text-sm">
+                    Hire Me
+                </a>
             </div>
         </motion.nav>
     );
