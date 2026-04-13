@@ -306,6 +306,52 @@ body::after {
   100% { transform: translate(60px, 120px) scale(1.1); }
 }
 
+/* Buttons */
+.btn-premium {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: var(--transition);
+  cursor: pointer;
+  letter-spacing: 0.05em;
+}
+
+.btn-premium.primary {
+  background: var(--text-main);
+  color: var(--bg-color);
+  border: 1px solid transparent;
+  box-shadow: 0 4px 14px 0 rgba(255, 255, 255, 0.1);
+}
+
+.btn-premium.primary:hover {
+  background: transparent;
+  color: var(--text-main);
+  border-color: var(--text-main);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.btn-premium.secondary {
+  background: var(--surface);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+}
+
+.btn-premium.secondary:hover {
+  background: var(--surface-hover);
+  border-color: var(--primary-accent);
+  color: var(--primary-accent);
+  box-shadow: 0 0 15px var(--primary-accent-glow);
+  transform: translateY(-2px);
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg-color); }

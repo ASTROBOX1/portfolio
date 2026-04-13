@@ -9,15 +9,16 @@ const Hero = () => {
                 <div className="mesh-circle mesh-2"></div>
             </div>
 
-            <div className="hero-container relative z-10 text-center">
+            <div className="hero-container relative z-10 text-center px-4 max-w-5xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="inline-block px-4 py-mini mb-6 glass rounded-full border-white-soft"
+                    className="inline-flex items-center gap-2 px-4 py-mini mb-8 glass rounded-full border-white-soft"
                 >
-                    <span className="text-micro font-medium tracking-widest text-primary-accent uppercase">
-                        Architecting the Future of Intelligence
+                    <span className="w-2 h-2 rounded-full bg-primary-accent shadow-[0_0_8px_var(--primary-accent)]"></span>
+                    <span className="text-micro font-medium tracking-widest text-text-main uppercase">
+                        Freelance Data Analytics Consultant
                     </span>
                 </motion.div>
 
@@ -25,10 +26,10 @@ const Hero = () => {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
-                    className="text-7xl md:text-9xl font-bold heading leading-tightest mb-8"
+                    className="text-5xl md:text-7xl lg:text-8xl font-bold heading leading-tightest mb-8"
                 >
-                    MOHAMED <br />
-                    <span className="text-gradient">SAYED</span>
+                    TURNING DATA INTO <br />
+                    <span className="text-gradient">BUSINESS GROWTH</span>
                 </motion.h1>
 
                 <motion.p
@@ -37,20 +38,20 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="max-w-2xl mx-auto text-lg md:text-xl text-muted font-light leading-relaxed mb-12"
                 >
-                    Data Science & AI Engineer specializing in high-impact machine learning solutions, from healthcare diagnostics to predictive analytics.
+                    I build predictive models, interactive dashboards, and automated pipelines that help companies unlock insights, optimize revenue, and reduce operational costs.
                 </motion.p>
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
-                    className="flex flex-col md:flex-row gap-4 justify-center"
+                    className="flex flex-col sm:flex-row gap-4 justify-center items-center"
                 >
-                    <a href="#projects" className="btn-premium primary">
-                        Explore Research Work
+                    <a href="#contact" className="btn-premium primary w-full sm:w-auto">
+                        Hire Me
                     </a>
-                    <a href="#contact" className="btn-premium secondary">
-                        Get In Touch
+                    <a href="#projects" className="btn-premium secondary w-full sm:w-auto">
+                        View Case Studies
                     </a>
                 </motion.div>
             </div>
