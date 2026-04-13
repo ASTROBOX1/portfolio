@@ -18,7 +18,7 @@ const Hero = () => {
                 >
                     <span className="w-2 h-2 rounded-full bg-primary-accent shadow-[0_0_8px_var(--primary-accent)]"></span>
                     <span className="text-micro font-medium tracking-widest text-text-main uppercase">
-                        Freelance Data Analytics Consultant
+                        📊 Fractional Analytics Lead | Data Consultant
                     </span>
                 </motion.div>
 
@@ -38,7 +38,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="max-w-2xl mx-auto text-lg md:text-xl text-muted font-light leading-relaxed mb-12"
                 >
-                    I build predictive models, interactive dashboards, and automated pipelines that help companies unlock insights, optimize revenue, and reduce operational costs.
+                    I help companies move faster, make smarter decisions, and grow revenue using data. From intelligent dashboards to predictive systems, I deliver analytics that actually drive business outcomes.
                 </motion.p>
 
                 <motion.div

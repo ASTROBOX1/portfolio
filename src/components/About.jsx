@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 
 const highlights = [
-    "End-to-end analytics pipelines — from raw data to business decision",
-    "Interactive dashboards deployed as live web applications",
-    "Machine learning models optimized for business ROI, not just accuracy",
-    "Communication that bridges the gap between data and business leadership",
+    "✓ Move faster: Cut decision-making cycles from weeks to hours with smart dashboards",
+    "✓ Reduce risk: Predictive models identify problems before they cost you revenue",
+    "✓ Grow revenue: Data-driven strategies unlock customer insights competitors miss",
+    "✓ Build trust: Clear insights that business leaders actually understand and act on",
 ];
 
 const About = () => {
@@ -33,7 +33,7 @@ const About = () => {
                             viewport={{ once: true }}
                             className="text-4xl md:text-5xl font-bold heading mb-8"
                         >
-                            I TURN DATA INTO <span className="text-gradient">DECISIONS</span>
+                            DATA STRATEGY THAT <span className="text-gradient">MOVES COMPANIES</span>
                         </motion.h2>
 
                         <div className="space-y-6 text-muted leading-relaxed">
@@ -43,7 +43,7 @@ const About = () => {
                                 viewport={{ once: true }}
                                 transition={{ delay: 0.1 }}
                             >
-                                Most companies are sitting on gold mines of data — and have no idea what to do with it. I bridge that gap. I'm Mohamed Sayed, a Data Scientist and AI Builder who specializes in transforming messy, complex datasets into clear business strategies.
+                                I'm Mohamed Sayed, a Data Consultant and fractional analytics leader. I partner with companies and founders to turn raw data into competitive advantages. Every dashboard I build, every analysis I deliver, and every model I train is designed with one goal: measurable business impact.
                             </motion.p>
                             <motion.p
                                 initial={{ opacity: 0, y: 20 }}
@@ -51,7 +51,7 @@ const About = () => {
                                 viewport={{ once: true }}
                                 transition={{ delay: 0.2 }}
                             >
-                                I don't just build models — I build solutions. Whether that means a revenue forecasting dashboard for your sales team, a churn prediction system for your product, or a market intelligence pipeline for your strategy team, I deliver work that drives measurable outcomes.
+                                Unlike typical data scientists, I think like a business consultant. I don't optimize for model accuracy—I optimize for ROI. Whether it's a revenue dashboard that cuts decision-making time by 70%, a churn model that prevents million-dollar losses, or a market intelligence system that gives you first-mover advantage, I focus on what actually moves the needle for your business.
                             </motion.p>
                         </div>
 

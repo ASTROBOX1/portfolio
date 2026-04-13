@@ -2,24 +2,24 @@ import { motion } from 'framer-motion';
 
 const skillCategories = [
     {
-        title: "Machine Intelligence",
-        skills: ["Classification", "Regression", "Gradient Boosting", "Neural Architectures"],
-        icon: "🤖"
+        title: "Predictive Analytics",
+        skills: ["Customer Churn Prediction", "Revenue Forecasting", "Anomaly Detection", "Risk Scoring"],
+        icon: "🔮"
     },
     {
-        title: "Analytical Operations",
-        skills: ["Exploratory Data Analysis", "Feature Engineering", "Statistical Modeling", "Data Synthesis"],
-        icon: "📊"
-    },
-    {
-        title: "Health-Tech Vertical",
-        skills: ["Clinical Diagnostics", "Predictive Healthcare", "Medical Signal Processing"],
-        icon: "🏥"
-    },
-    {
-        title: "Toolchain",
-        skills: ["Python", "TensorFlow", "Scikit-Learn", "SQL", "Streamlit", "Tableau"],
+        title: "Data Engineering",
+        skills: ["ETL Pipelines", "Data Quality & Validation", "Database Architecture", "Real-time Processing"],
         icon: "⚙️"
+    },
+    {
+        title: "Business Intelligence",
+        skills: ["KPI Development", "Competitive Analysis", "Market Intelligence", "Scenario Modeling"],
+        icon: "📈"
+    },
+    {
+        title: "Tools & Platforms",
+        skills: ["Python | SQL | Streamlit", "Tableau | Plotly | React", "TensorFlow | Scikit-Learn", "AWS | GCP | APIs"],
+        icon: "🛠️"
     }
 ];
 
@@ -33,10 +33,10 @@ const Skills = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         className="text-4xl md:text-5xl font-bold heading mb-6"
                     >
-                        TECHNICAL <span className="text-primary-accent">COGNITION</span>
+                        MY <span className="text-primary-accent">EXPERTISE</span>
                     </motion.h2>
                     <p className="text-muted max-w-xl mx-auto text-sm uppercase tracking-widest font-medium">
-                        Architecting high-fidelity intelligence. My research focus lies at the intersection of medical diagnostics and advanced predictive modeling.
+                        I combine advanced statistical techniques, machine learning, and business acumen to solve real problems that generate measurable ROI.
                     </p>
                 </div>
 

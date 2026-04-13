@@ -32,7 +32,7 @@ const Contact = () => {
                         viewport={{ once: true }}
                         className="text-micro font-bold tracking-mega text-primary-accent uppercase block mb-4"
                     >
-                        Get In Touch
+                        Start Your Data Transformation
                     </motion.span>
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ const Contact = () => {
                         transition={{ delay: 0.1 }}
                         className="text-4xl md:text-6xl font-bold heading mb-6"
                     >
-                        LET'S BUILD SOMETHING <span className="text-gradient">VALUABLE</span>
+                        LET'S GROW YOUR BUSINESS <span className="text-gradient">WITH DATA</span>
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ const Contact = () => {
                         transition={{ delay: 0.2 }}
                         className="text-muted leading-relaxed"
                     >
-                        Have a data problem you'd like to solve? I typically respond within 24 hours.
+                        Ready to turn your data into competitive advantage? Share your project details, and I'll send you a personalized proposal within 24 hours.
                     </motion.p>
                 </div>
 
@@ -176,12 +176,12 @@ const Contact = () => {
 
                         {/* Trust signals */}
                         <div className="glass p-6 rounded-2xl border-white-mini space-y-4">
-                            <h3 className="font-bold text-lg">Why clients choose me</h3>
+                            <h3 className="font-bold text-lg">Why companies hire me</h3>
                             {[
-                                "⚡ 24-hour response guaranteed",
-                                "📊 Business-first, not just technical deliverables",
-                                "🔁 Iterative delivery — feedback welcome at every stage",
-                                "🔒 NDA-ready for confidential data projects",
+                                "🎯 Results-focused: You pay for business impact, not hours spent",
+                                "⚡ Fast turnaround: Most projects deliver first insights within 1 week",
+                                "💼 Consultant mindset: I speak your language, not technical jargon",
+                                "🤝 Collaborative: Your team stays informed at every milestone",
                             ].map((item) => (
                                 <div key={item} className="text-sm text-muted">{item}</div>
                             ))}

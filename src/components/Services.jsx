@@ -3,34 +3,34 @@ import { Database, LineChart, LayoutDashboard, Globe, Cpu } from 'lucide-react';
 
 const services = [
     {
-        title: "Predictive Analytics & ML",
-        description: "Deploy machine learning models to forecast trends, score customer churn, and predict lifetime value. Stop guessing and start anticipating.",
+        title: "Revenue Intelligence & Forecasting",
+        description: "Predictive models that forecast trends, identify expansion opportunities, and predict customer churn before it happens. Transform data into revenue growth strategies.",
         icon: <Cpu className="w-6 h-6 text-primary-accent" />,
-        audience: "Growth & Strategy Teams"
+        audience: "C-Suite & Growth Teams"
     },
     {
-        title: "Interactive Dashboards",
-        description: "Custom web applications (Streamlit/React) that transform complex datasets into intuitive, real-time visual interfaces for your stakeholders.",
+        title: "Decision-Making Dashboards",
+        description: "Purpose-built interactive dashboards and web applications that give your team real-time visibility into what matters. One glance = clear decision.",
         icon: <LayoutDashboard className="w-6 h-6 text-primary-accent" />,
-        audience: "Executives & Managers"
+        audience: "Executives & Operations"
     },
     {
-        title: "Sales & Market Intelligence",
-        description: "Deep-dive analysis into market trends, competitor pricing, and sales performance to identify new revenue opportunities.",
+        title: "Competitive & Market Intelligence",
+        description: "Systematic analysis of market trends, competitor positioning, and customer behavior to uncover untapped opportunities and move faster than the market.",
         icon: <Globe className="w-6 h-6 text-primary-accent" />,
-        audience: "Sales & Marketing"
+        audience: "Sales, Marketing & Strategy"
     },
     {
-        title: "Business Data Analysis",
-        description: "Extracting actionable KPIs from your raw data. I translate SQL queries and Python scripts into plain-English business recommendations.",
+        title: "Business Analytics Consultation",
+        description: "Partner with me to extract actionable insights from your data. I analyze patterns, identify bottlenecks, and recommend concrete business decisions—not just reports.",
         icon: <LineChart className="w-6 h-6 text-primary-accent" />,
-        audience: "Founders & Operations"
+        audience: "Founders & Leadership"
     },
     {
-        title: "Data Cleaning & Preprocessing",
-        description: "Ensuring data integrity by fixing missing values, removing outliers, and structuring messy data securely for downstream analysis.",
+        title: "Data Pipeline & Quality",
+        description: "Reliable, clean data is the foundation of every good decision. I architect data pipelines that ensure data integrity and speed up decision-making cycles.",
         icon: <Database className="w-6 h-6 text-primary-accent" />,
-        audience: "Data Ecosystems"
+        audience: "Technical & Data Teams"
     }
 ];
 
